@@ -10,8 +10,13 @@
   "author": "Gesiel Neves",
   "license": "ISC",
   "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^9.3.0",
     "prisma": "^4.9.0",
+    "prisma-erd-generator": "^1.2.5",
     "tsx": "^3.12.2"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
     "@fastify/cors": "^8.2.0",
